@@ -71,6 +71,13 @@ class UrbanProject {
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         return $row['total'];
     }
+    public function countDistinctUsers() {
+        $query = "SELECT COUNT(DISTINCT id_user) AS total FROM projet_urbain";
+        $stmt = $this->pdo->prepare($query);
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result['total'];
+    }
     
 }
 

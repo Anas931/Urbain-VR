@@ -44,18 +44,18 @@
 
 <!-- ... head et nav déjà inclus ... -->
 
-<div class="container mt-4">
+<div class="container mt-4 text-center">
   <h1>Bienvenue sur notre site de visites urbaines</h1>
   <p>Explorez nos projets urbains liés à l'urbanisme, la mobilité et le développement durable.</p>
-  <img src="assets/img/image1.png" alt="photo "height="250" width="400">
+  <img src="assets/img/image1.png" alt="photo" height="400" width="700" class="my-3">
 
-  <a href="../models/UrbanProject.php" class="btn btn-primary">Voir nos projets urbains</a> 
-  <a href="../pack/views/frontoffice/Packs.php" class="btn btn-secondary">Nos packs d'abonnement</a>
+  <div class="d-grid gap-3 col-6 mx-auto mt-4">
+    <a href="../../" class="btn btn-primary btn-lg">Voir nos projets urbains</a>
+    <a href="../../pack/views/frontoffice/Packs.php" class="btn btn-primary btn-lg">Nos packs d'abonnement</a>
+    <a href="views/backoffice/export_users_excel.php" class="btn btn-success">Exporter la liste en Excel</a>
+  </div>
 </div>
-<center>
 
-<a href="views/backoffice/export_users_excel.php" class="btn btn-success">Exporter la liste en Excel</a>
-</center>
 <?php include __DIR__ . '/../templates/footer-index.php'; ?>
 
   

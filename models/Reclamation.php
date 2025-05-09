@@ -68,4 +68,5 @@ public function countReclamations() {
     return $row['total'];
 }
 
+
 }

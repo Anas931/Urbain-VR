@@ -1,18 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Liste des utilisateurs</title>
-
-  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../../assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-
-<!DOCTYPE html>
-<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -49,37 +36,28 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
-<?php include '../../templates/header-front.php'; ?>
-<?php include '../../templates/navbar-views.php'; ?>
+<body class="login-page">
 
-<div class="container mt-4">
-    <h1>Bienvenue sur notre site de visites urbaines</h1>
-    <p>Explorez nos projets urbains liés à l'urbanisme, la mobilité et le développement durable.</p>
+   <header id="header" class="header d-flex align-items-center sticky-top">
+      <img src="../../assets/img/urba.png" alt="Logo "height="120" width="120">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center">
+  
+        <a href="../../index.php" class="logo d-flex align-items-center me-auto">
+          <h1 class="sitename">Visites Urbaines</h1>
+        </a>
+  
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="register.php">Ajouter Utilisateurs</a></li>
+            <li><a href="../../forms/about.php">A propos</a></li>
+            <a class="btn-getstarted" href="../../forms/contact.php">Contactez-nous</a>
 
-    <a href="urban-projects.php" class="btn btn-primary">Voir nos projets urbains</a>
-    <a href="packs.php" class="btn btn-secondary">Nos packs d'abonnement</a>
-</div>
-
-<?php include '../../templates/footer-views.php'; ?>
-
-<!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-    
-    <!-- Preloader -->
-    <div id="preloader"></div>
-    
-    <!-- Vendor JS Files -->
-    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/vendor/php-email-form/validate.js"></script>
-    <script src="../../assets/vendor/aos/aos.js"></script>
-    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    
-    <!-- Main JS File -->
-    <script src="../../assets/js/main.js"></script>
-    
-    </body>
-    
-    </html>
+            </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+  
+  
+      </div>
+    </header>
+</body>
+</html>

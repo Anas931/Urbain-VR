@@ -18,36 +18,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
 
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
-    <img src="../../assets/img/urba.png" alt="Logo " height="120" width="120">
+    <img src="../assets/img/urba.png" alt="Logo " height="120" width="120">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="../../indexfront.php" class="logo d-flex align-items-center me-auto">
+      <a href="../indexfront.php" class="logo d-flex align-items-center me-auto">
         <h1 class="sitename">Visites Urbaines</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-        <li><a href="../../indexfront.php" class="active">Accueil</a></li>
+        <li><a href="../indexfront.php" class="active">Accueil</a></li>
         <li><a href="">Utilisateurs</a></li>
             <li><a href="../../">Projets Urbains</a></li>
-            <li><a href="../../../reclamations_project_final/public/index.php">Réclamations</a></li>
-            <li><a href="../../../pack/index.php">Packs</a></li>
-            <li><a href="../../forms/about.php">A propos</a></li>
-            <a class="btn-getstarted" href="../../forms/contact.php">Contactez-nous</a>
+            <li><a href="../../reclamations_project_final/public/index.php">Réclamations</a></li>
+            <li><a href="../../pack/index.php">Packs</a></li>
+            <li><a href="../forms/about.php">A propos</a></li>
+            <a class="btn-getstarted" href="../forms/contact.php">Contactez-nous</a>
          
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

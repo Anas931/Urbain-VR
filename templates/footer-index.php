@@ -16,8 +16,8 @@
             <div class="social-links d-flex mt-4">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/urbavr?igsh=MTcyMm9jODM1eGl1NQ=="><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/urba-vr-44b21b364"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
   
@@ -25,10 +25,10 @@
             <h4>Useful Links</h4>
             <ul>
               <li><a href="index.php">Acceuil</a></li>
-              <li><a href="Views/frontoffice/about.php">A propos</a></li>
+              <li><a href="forms/about.php">A propos</a></li>
               <li><a href="">Service projet</a></li>
               <li><a href="">details projets</a></li>
-              <li><a href="Views\frontoffice/contact.php">Contact</a></li>
+              <li><a href="forms/contact.php">Contact</a></li>
             </ul>
           </div>
   

@@ -19,15 +19,15 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?action=urban_projects">Projets urbains</a>
+                    <a class="nav-link" href="../../">Projets urbains</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?action=packs">Packs</a>
+                    <a class="nav-link" href="../../pack/index.php">Packs</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?action=reclamations">Réclamations</a>
+                    <a class="nav-link" href="../../reclamations_project_final/public/index.php">Réclamations</a>
                 </li>
 
                 

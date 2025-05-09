@@ -23,12 +23,14 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../../">Packs</a>
+                    <a class="nav-link" href="../../reclamations_project_final/public/index.php">Réclamations</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../../">Réclamations</a>
+                    <a class="nav-link" href="../../pack/index.php">Packs</a>
                 </li>
+
+                
 
                 
 

@@ -11,7 +11,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../../views/backoffice/dashboard.php">Dashboard</a>
+                    <a class="nav-link" href="../../views/frontoffice/dashboarduser.php">Dashboard</a>
                 </li>
 
                 <li class="nav-item">
@@ -19,15 +19,15 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../../">Projets urbains</a>
+                    <a class="nav-link" href="../../../">Projets urbains</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../reclamations_project_final//public/index.php">Réclamations</a>
+                
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../../../pack/index.php">Packs</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../../../reclamations_project_final/public/index.php">Réclamations</a>
                 </li>
 
                 
@@ -36,7 +36,7 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-danger" href="../../auth/logout.php">Déconnexion</a>
+                    <a class="nav-link text-danger" href="logout.php">Déconnexion</a>
                     
                 </li>
             </ul>

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liste des utilisateurs</title>
 
-  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
 </head>
 <body>
 
@@ -22,8 +22,8 @@
   <meta name="keywords" content="urbanisme, mobilité, développement durable, projets urbains, visite, durabilité, villes intelligentes">
 
   <!-- Favicons -->
-  <link href="../../assets/img/favicon-urbanisme.png" rel="icon">
-  <link href="../../assets/img/apple-touch-icon-urbanisme.png" rel="apple-touch-icon">
+  <link href="../assets/img/favicon-urbanisme.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon-urbanisme.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -31,14 +31,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Visites Urbaines
@@ -51,8 +51,8 @@
 
 <body class="about-page">
  
-<?php include '../../templates/header-front.php'; ?>
-<?php include '../../templates/navbar-views.php'; ?>
+<?php include '../templates/header-forms.php'; ?>
+
 
   <main class="main">
 
@@ -190,7 +190,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="../../assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="../assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
                 <h4>Architecte et Expert en Urbanisme</h4>
                 <div class="stars">
@@ -208,7 +208,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="../../assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="../assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer Urbain</h4>
                 <div class="stars">
@@ -226,7 +226,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="../../assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="../assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Responsable de la Mobilité Durable</h4>
                 <div class="stars">
@@ -244,7 +244,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="../../assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="../assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Consultant en Développement Durable</h4>
                 <div class="stars">
@@ -262,7 +262,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="../../assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="../assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Entrepreneur en Technologie</h4>
                 <div class="stars">
@@ -287,7 +287,7 @@
   
   </main>
     
-  <?php include_once '../../templates/footer-views.php'; ?>
+  <?php include_once '../templates/footer-auth.php'; ?>
     
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -296,15 +296,15 @@
     <div id="preloader"></div>
     
     <!-- Vendor JS Files -->
-    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/vendor/php-email-form/validate.js"></script>
-    <script src="../../assets/vendor/aos/aos.js"></script>
-    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
     
     <!-- Main JS File -->
-    <script src="../../assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
     
     </body>
     

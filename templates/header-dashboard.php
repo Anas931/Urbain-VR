@@ -44,11 +44,11 @@
           <ul>
             
             <li><a href="../../views/backoffice/add-user.php">Utilisateurs</a></li>
-            <li><a href="../../views/backoffice/">Projets Urbains</a></li>
-            <li><a href="../../views/backoffice/">Réclamations</a></li>
-            <li><a href="../../views/backoffice/">Packs</a></li>
-            <li><a href="../../Views/frontoffice/about.php">A propos</a></li>
-            <a class="btn-getstarted" href="../../Views/frontoffice/contact.php">Contactez-nous</a>
+            <li><a href="../../../">Projets Urbains</a></li>
+            <li><a href="../../../reclamations_project_final/public/index.php">Réclamations</a></li>
+            <li><a href="../../../pack/index.php">Packs</a></li>
+            <li><a href="../../forms/about.php">A propos</a></li>
+            <a class="btn-getstarted" href="../..forms/contact.php">Contactez-nous</a>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i> 
         </nav>

@@ -1,3 +1,14 @@
+<?php
+// filepath: c:\xampp\htdocs\ttt\index.php
+session_start();
+
+// Vérifie si l'utilisateur est connecté en tant qu'administrateur
+if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
+    header("Location: ./Views/backoffice/admin-login.php"); // Redirige vers la page de connexion admin
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -27,13 +38,10 @@
 
 <body>
 
-
 <?php
 $title = "Liste des utilisateurs";
 include './config/database.php'; 
 include './views/layout.php';
-
-
 
 // Autoload controllers & models (ou require manuels)
 include './Controllers/usercontroller.php';
@@ -57,7 +65,6 @@ switch ($action) {
     case 'store_user':
         $userController->storeUser();
         break;
-        break;
     case 'update_user':
         $userController->updateUser();
         break;
@@ -65,16 +72,20 @@ switch ($action) {
         $userController->deleteUser();
         break;
     case 'read_user':
-        $usercontroller->show();
-          break;
-      
+        $userController->show();
+        break;
+    case 'activate_user':
+        $userController->activateUser();
+        break;
+    case 'deactivate_user':
+        $userController->deactivateUser();
+        break;
     default:
         echo "Page introuvable.";
-
-       
 }
-
 ?>
+
+
 <?php include './templates/footer-index.php'; ?>
 
 <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

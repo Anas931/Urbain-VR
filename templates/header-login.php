@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -36,21 +36,21 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="login-page">
 
    <header id="header" class="header d-flex align-items-center sticky-top">
       <img src="../assets/img/urba.png" alt="Logo "height="120" width="120">
       <div class="container-fluid container-xl position-relative d-flex align-items-center">
   
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="" class="logo d-flex align-items-center me-auto">
           <h1 class="sitename">Visites Urbaines</h1>
         </a>
   
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="../auth/ajouter.php">Ajouter Utilisateurs</a></li>
-            <li><a href="../Views\frontoffice/about.php">A propos</a></li>
-            <a class="btn-getstarted" href="../Views\frontoffice/contact.php">Contactez-nous</a>
+            <li><a href="../froms/about.php">A propos</a></li>
+            <a class="btn-getstarted" href="../froms/contact.php">Contactez-nous</a>
 
             </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
