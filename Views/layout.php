@@ -50,7 +50,7 @@
   <img src="assets/img/image1.png" alt="photo" height="400" width="700" class="my-3">
 
   <div class="d-grid gap-3 col-6 mx-auto mt-4">
-    <a href="../../" class="btn btn-primary btn-lg">Voir nos projets urbains</a>
+    <a href="../../phpdenada/index.php" class="btn btn-primary btn-lg">Voir nos projets urbains</a>
     <a href="../../pack/views/frontoffice/Packs.php" class="btn btn-primary btn-lg">Nos packs d'abonnement</a>
     <a href="views/backoffice/export_users_excel.php" class="btn btn-success">Exporter la liste en Excel</a>
   </div>

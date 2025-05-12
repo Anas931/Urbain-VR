@@ -46,8 +46,8 @@
             <li><a href="../../Views\backoffice/add-user.php">Ajouter utilisateur</a></li>
             <li><a href="../../Views\backoffice/update-user.php">Modifier utilisateur</a></li>
             <li><a href="../../Views\backoffice/delete-user.php">Supprimer utilisateur</a></li>
-            <li><a href="../../froms/about.php">A propos</a></li>
-            <a class="btn-getstarted" href="../../froms/contact.php">Contactez-nous</a>
+            <li><a href="../../forms/about.php">A propos</a></li>
+            <a class="btn-getstarted" href="../../forms/contact.php">Contactez-nous</a>
          
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

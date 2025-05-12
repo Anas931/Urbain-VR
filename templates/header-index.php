@@ -50,7 +50,7 @@
           <ul>
             
             <li><a href="./views/backoffice/add-user.php">Utilisateurs</a></li>
-            <li><a href="">Projets Urbains</a></li>
+            <li><a href="../../phpdenada/index.php">Projets Urbains</a></li>
             <li><a href="../../reclamations_project_final/public/index.php">Réclamations</a></li>
             <li><a href="../../pack/index.php">Packs</a></li>
             <li><a href="./forms/about.php">A propos</a></li>

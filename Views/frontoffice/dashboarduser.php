@@ -46,7 +46,7 @@ $user = $_SESSION['user'];
       <a href="profile.php" class="list-group-item list-group-item-action">
         <i class="bi bi-person-circle"></i> Mon Profil
       </a>
-      <a href="my-projects.php" class="list-group-item list-group-item-action">
+      <a href="../../../phpdenada/index.php" class="list-group-item list-group-item-action">
         <i class="bi bi-folder"></i> Mes Projets
       </a>
       <a href="logout.php" class="list-group-item list-group-item-action text-danger">

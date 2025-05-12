@@ -26,8 +26,8 @@
             <ul>
               <li><a href="index.php">Acceuil</a></li>
               <li><a href="forms/about.php">A propos</a></li>
-              <li><a href="">Service projet</a></li>
-              <li><a href="">details projets</a></li>
+              <li><a href="../../../phpdenada/index.php">Service projet</a></li>
+              <li><a href="../../../phpdenada/index.php">details projets</a></li>
               <li><a href="forms/contact.php">Contact</a></li>
             </ul>
           </div>
